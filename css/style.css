@@ -417,8 +417,13 @@ button{
 }
 
 @media (max-width: 575.98px) {
-    html{
-        font-size: 20%;
+    .carousel,
+    .carousel .carousel-item,
+    .carousel .carousel-text {
+        height: calc(100vh - 50px);
+    }
+    .carousel-right {
+        height: calc(100vh - 50px);
     }
 }
 
