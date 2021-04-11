@@ -521,7 +521,11 @@ button{
     letter-spacing: 1px;
     color:#f8f9fa;
 }
+@media (max-width: 991.98px) {
 
+    .fact ,.fact-item {
+        width: 100%;
+    }
 
 /*******************************/
 /********** About CSS **********/
