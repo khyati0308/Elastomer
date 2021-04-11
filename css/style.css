@@ -378,7 +378,14 @@ button{
 
 @media (max-width: 991.98px) {
 
-
+    .carousel,
+    .carousel .carousel-item,
+    .carousel .carousel-text {
+        height: calc(100vh - 100px);
+    }
+    .carousel-right {
+        height: calc(100vh - 100px);
+    }
     .carousel-right p{
         font-size: 12px;
     }
@@ -1311,5 +1318,4 @@ button{
         margin: 5px 0;
         text-align: center;
     }
-}
 }
