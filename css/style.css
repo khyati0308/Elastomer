@@ -381,10 +381,10 @@ button{
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
-        height: calc(100vh - 100px);
+        height: calc(100vh - 50px);
     }
     .carousel-right {
-        height: calc(100vh - 100px);
+        height: calc(100vh - 50px);
     }
     .carousel-right p{
         font-size: 12px;
