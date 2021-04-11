@@ -377,6 +377,7 @@ button{
 }
 
 @media (max-width: 991.98px) {
+
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
@@ -417,7 +418,7 @@ button{
 
 @media (max-width: 575.98px) {
     html{
-        font-size: 45%;
+        font-size: 20%;
     }
 }
 
@@ -520,8 +521,6 @@ button{
     letter-spacing: 1px;
     color:#f8f9fa;
 }
-
-
 
 
 /*******************************/
@@ -861,7 +860,7 @@ button{
     }
     .team .team-img img {
         width: 100%;
-        padding: 2px;
+        padding: 20px;
        
     }
 
